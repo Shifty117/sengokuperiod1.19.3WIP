@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sengokuperiod",
+	"version": "${version}",
+	"name": "SengokuPeriod",
+	"description": "Sengoku Era themed mod for Minecraft 1.19.3",
+	"authors": [
+		"Shifty"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "All Rights Reserved",
+	"icon": "assets/sengokuperiod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.shifty.sengokuperiod.SengokuPeriod"
+		],
+		"client" : [
+			"net.shifty.sengokuperiod.SengokuPeriodClient"
+		],
+		"fabric-datagen": [
+			"net.shifty.sengokuperiod.SengokuPeriodDataGenerator"
+		]
+	},
+	"mixins": [
+		"sengokuperiod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.19.3",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

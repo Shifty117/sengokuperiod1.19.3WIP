@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    " LS",
+    "LSL",
+    "SL "
+  ],
+  "result": {
+    "item": "sengokuperiod:katanahilt"
+  }
+}

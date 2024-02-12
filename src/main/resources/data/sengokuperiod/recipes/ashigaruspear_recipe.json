@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "sengokuperiod:katanablade"
+    },
+    "S": {
+      "item": "sengokuperiod:spearstaff"
+    },
+    "X": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    " B ",
+    " X ",
+    " S "
+  ],
+  "result": {
+    "item": "sengokuperiod:ashigaruspear"
+  }
+}

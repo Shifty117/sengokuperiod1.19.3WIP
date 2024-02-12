@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "B": {
+      "item": "sengokuperiod:katanablade"
+    },
+    "H": {
+      "item": "sengokuperiod:katanahilt"
+    }
+  },
+  "pattern": [
+    "B",
+    "H"
+  ],
+  "result": {
+    "item": "sengokuperiod:katana"
+  }
+}

@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "sengokuperiod:item/spearstaff",
+		"particle": "sengokuperiod:item/spearstaff"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 7],
+			"to": [9, 25, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 0.5, 12.5], "texture": "#0"},
+				"east": {"uv": [0.5, 0, 1, 12.5], "texture": "#0"},
+				"south": {"uv": [1, 0, 1.5, 12.5], "texture": "#0"},
+				"west": {"uv": [1.5, 0, 2, 12.5], "texture": "#0"},
+				"up": {"uv": [2.5, 4, 2, 3.5], "texture": "#0"},
+				"down": {"uv": [3, 3.5, 2.5, 4], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [-0.5, 0, 1.25]
+		},
+		"ground": {
+			"translation": [0, 4.5, 0],
+			"scale": [1, 0.6582, 1]
+		},
+		"gui": {
+			"rotation": [0, 0, -45],
+			"translation": [-2.75, -2, 0],
+			"scale": [1, 0.80664, 1]
+		}
+	}
+}
